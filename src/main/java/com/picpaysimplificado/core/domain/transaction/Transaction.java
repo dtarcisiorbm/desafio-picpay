@@ -1,11 +1,8 @@
-package com.picpaysimplificado.domain.transaction;
+package com.picpaysimplificado.core.domain.transaction;
 
-import com.picpaysimplificado.domain.user.User;
+import com.picpaysimplificado.core.domain.user.User;
 import jakarta.persistence.*;
-import lombok.AllArgsConstructor;
-import lombok.EqualsAndHashCode;
-import lombok.Getter;
-import lombok.Setter;
+import lombok.*;
 
 import java.math.BigDecimal;
 import java.time.LocalDateTime;
