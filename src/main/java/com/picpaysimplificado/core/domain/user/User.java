@@ -40,6 +40,7 @@ public class User {
     this.balance=data.balance();
     this.password=data.password();
     this.userType=data.userType();
+    this.email= data.email();
 
     }
 }
